@@ -1,0 +1,152 @@
+
+
+.we-would-love-to-hear-from-you{
+	margin: 1.5em 0;
+	font-size: 30px;
+	font-family: 'sf_pro_bold';
+}
+
+.left-panel{
+	padding: 0em;
+}
+
+.right-panel{
+	padding-top: 5em;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+
+.input-field-contact{
+	width: 100%;
+	margin-top: 1em;
+	background-color: #EEE;
+	border: 1px solid #EEE;
+	border-radius: .2em;
+	font-size: 20px;
+	font-family: 'sf_pro_regular';
+	letter-spacing: -0.22px;
+  	line-height: 24px;
+	color: #000;
+	padding: .3em;
+}
+
+.input-field-contact::placeholder{
+	color:#000;
+	font-size: 20px;
+	font-family: 'sf_pro_regular';
+}
+
+.input-text-area-message{
+	resize: none;
+	width: 100%;
+	background-color: #EEE;
+	border: 1px solid #EEE;
+	border-radius: .2em;
+	color: #000;
+	font-family: "sf_pro_medium";
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: -0.18px;
+	line-height: 19px;
+	padding: .3em;
+	margin-top: 1em;
+}
+
+.btn-submit-rectangle{
+	display: flex;
+	height: 93px;
+	width: 100%;
+	border-radius: 6px;
+	border: 2px solid #EEE;
+	margin-top: 1em;
+	padding: 0px 27px;
+	cursor: pointer;
+}
+
+.btn-submit-rectangle-clicked{
+	display: flex;
+	height: 93px;
+	width: 100%;
+	border-radius: 6px;
+	border: 2px solid #EEE;
+	margin-top: 1em;
+	padding: 0px 27px;
+	cursor: pointer;
+	color: white;
+	background-color: #3ABEFF;
+}
+
+.label-submit{
+	color: #E0E0E0;
+	font-size: 30px;
+	font-family: "sf_pro_medium";
+	text-align: left;
+	font-weight: 500;
+	letter-spacing: -0.33px;
+	line-height: 36px;
+	cursor: pointer;
+}
+
+.label-submit-clicked{
+	color: #FFF;
+	font-size: 30px;
+	font-family: "sf_pro_medium";
+	text-align: left;
+	font-weight: 500;
+	letter-spacing: -0.33px;
+	line-height: 36px;
+	cursor: pointer;
+}
+
+
+
+.input-text-area-message::placeholder{
+	color: #000;
+	font-size: 16px;
+	font-family: 'sf_pro_medium';
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+	.we-would-love-to-hear-from-you{
+		margin-top: 1em;
+		margin-bottom: 1em;
+		font-size: 20px;
+	}
+
+	.input-field-contact{
+		margin-top: .66em;
+		font-size: 16px;
+		font-family: 'sf_pro_regular';
+		letter-spacing: -0.22px;
+	  	line-height: 18px;
+		color: #000;
+		padding: .3em;
+	}
+
+	.input-field-contact::placeholder{
+		color:#000;
+		font-size: 16px;
+		font-family: 'sf_pro_regular';
+	}
+
+	.input-text-area-message{
+		font-size: 14px;
+		font-weight: 500;
+		letter-spacing: -0.18px;
+		line-height: 19px;
+		padding: .3em;
+		margin-top: 1em;
+		color:#000;
+		font-family: "sf_pro_medium";
+	}
+
+	.input-text-area-message::placeholder{
+		color:#000;
+		font-size: 14px;
+		font-family: "sf_pro_medium";
+	}
+
+}

@@ -1,0 +1,175 @@
+<div id="view-1" *ngIf="showView1" class="container-fluid" style="margin-top: 65px;">
+	<div class="row">
+		<div class="col-1" style="padding: 0em">
+			<div class="btn-see-all-clinicians" (click)="clickMeetClinicians()">
+				See all the Clinicians
+			</div>
+		</div>
+		<div class="col-8">
+			<div class="row">
+				<div class="col-6 professional-left-panel">
+					<img src="../../../assets/img/large_portrait_2.jpg" class="img-fluid img-large-portrait" />
+				</div>
+				<div class="col-6 professional-right-panel">
+					<div class="row">
+						<div class="col-12">
+							<span class="professional-name">{{largeDisplayName}}</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<span class="professional-title">
+								{{largeDisplayTitle}}
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-11">
+					<div class="professional-quote">
+						"Animal Farm inspires me to create explosives in my basement and do something fun with them. That or go on a cruise and 'get lost' and never come back."
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-3">
+			<div class="meet-the-clinicians">
+				Meet the clinicians who can't get enough Bio Basin's for all the blood they "collect"
+			</div>
+		</div>
+	</div>
+</div>
+<div id="view-2" *ngIf="!showView1" lass="container-fluid" style="margin-top: 65px;">
+	<div class="row">
+		<div class="col-4 view-2-left-panel">
+			<div class="meet-the-clinicians-2">
+				Meet the clinicians who can't get enough Bio Basin's for all the blood they "collect"
+			</div>
+		</div>
+		<div class="col-8 view-2-right-panel">
+			<div class="row" style="margin-top: 1em;">
+				<div class="col-4 professional-rectangle-column" (click)="clickClinician('Dr. Sonia Nash','Pharmacist')">
+					<div class="row professional-rectangle professional-rectangle-1">
+						<div class="col-4 small-portrait-container">
+							<img src="../../../assets/img/portrait_1.jpg" class="img-fluid rounded-circle small-circle" />
+						</div>
+						<div class="col-8">
+							<span class="professional-rectangle-name">Dr. Sonia Nash</span>
+							<br>
+							<span class="professional-rectangle-title">Pharmacist</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 professional-rectangle-column" (click)="clickClinician('Dr. Benyaway','Oral Surgeon')">
+					<div class="row professional-rectangle professional-rectangle-2">
+						<div class="col-4 small-portrait-container">
+							<img src="../../../assets/img/portrait_2.jpg" class="img-fluid rounded-circle small-circle" />
+						</div>
+						<div class="col-8">
+							<span class="professional-rectangle-name">Dr. Benyaway</span>
+							<br>
+							<span class="professional-rectangle-title">Oral Surgeon</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 professional-rectangle-column" (click)="clickClinician('Dr. Jones','Foot Doctor')">
+					<div class="row professional-rectangle professional-rectangle-3">
+						<div class="col-4 small-portrait-container">
+							<img src="../../../assets/img/portrait_3.jpg" class="img-fluid rounded-circle small-circle" />
+						</div>
+						<div class="col-8">
+							<span class="professional-rectangle-name">Dr. Jones</span>
+							<br>
+							<span class="professional-rectangle-title">Foot Doctor</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" style="margin-top: 1em;">
+				<div class="col-4 professional-rectangle-column" (click)="clickClinician('Dr. Commenza','Body Doctor')">
+					<div class="row professional-rectangle professional-rectangle-1">
+						<div class="col-4 small-portrait-container">
+							<img src="../../../assets/img/portrait_4.jpg" class="img-fluid rounded-circle small-circle" />
+						</div>
+						<div class="col-8">
+							<span class="professional-rectangle-name">Dr. Commenza</span>
+							<br>
+							<span class="professional-rectangle-title">Body Doctor</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 professional-rectangle-column" (click)="clickClinician('Dr. Ear','Ear Doctor')">
+					<div class="row professional-rectangle professional-rectangle-2">
+						<div class="col-4 small-portrait-container">
+							<img src="../../../assets/img/portrait_5.jpg" class="img-fluid rounded-circle small-circle" />
+						</div>
+						<div class="col-8">
+							<span class="professional-rectangle-name">Dr. Ear</span>
+							<br>
+							<span class="professional-rectangle-title">Ear Doctor</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 professional-rectangle-column" (click)="clickClinician('Dr. Adafruit','Hair Doctor')">
+					<div class="row professional-rectangle professional-rectangle-3">
+						<div class="col-4 small-portrait-container">
+							<img src="../../../assets/img/portrait_6.jpg" class="img-fluid rounded-circle small-circle" />
+						</div>
+						<div class="col-8">
+							<span class="professional-rectangle-name">Dr. Adafruit</span>
+							<br>
+							<span class="professional-rectangle-title">Hair Doctor</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" style="margin-top: 1em;">
+				<div class="col-4 professional-rectangle-column" (click)="clickClinician('Dr. Beezelbum','Water in Body Doc')">
+					<div class="row professional-rectangle professional-rectangle-1">
+						<div class="col-4 small-portrait-container">
+							<img src="../../../assets/img/portrait_7.jpg" class="img-fluid rounded-circle small-circle" />
+						</div>
+						<div class="col-8">
+							<span class="professional-rectangle-name">Dr. Beezelbum</span>
+							<br>
+							<span class="professional-rectangle-title">Water in Body Doc</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 professional-rectangle-column" (click)="clickClinician('Dr. Paul Walker','Wildest Cowboy')">
+					<div class="row professional-rectangle professional-rectangle-2">
+						<div class="col-4 small-portrait-container">
+							<img src="../../../assets/img/portrait_8.jpg" class="img-fluid rounded-circle small-circle" />
+						</div>
+						<div class="col-8">
+							<span class="professional-rectangle-name align-items-center">Dr. Paul Walker</span>
+							<br>
+							<span class="professional-rectangle-title">Wildest Cowboy</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 professional-rectangle-column" (click)="clickClinician('Dr. Dwight Shrute','Tarzan Man')">
+					<div class="row professional-rectangle professional-rectangle-3">
+						<div class="col-4 small-portrait-container">
+							<img src="../../../assets/img/portrait_3.jpg" class="img-fluid rounded-circle small-circle" />
+						</div>
+						<div class="col-8">
+							<span class="professional-rectangle-name">Dr. Dwight Shrute</span>
+							<br>
+							<span class="professional-rectangle-title">Tarzan Man</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br><br><br><br>
+		</div>
+	</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="footer">
+	This is a footer
+</div>

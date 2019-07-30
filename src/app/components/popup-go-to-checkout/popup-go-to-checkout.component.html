@@ -1,0 +1,58 @@
+
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" style="outline: none" id="modal-basic-title">Add to Cart</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+      	<div class="row">
+      		<div class="col-10">
+		      <button class="btn btn-checkout">Go to Checkout</button>
+		    </div>
+		    <div class="col-2" style="padding: 0">
+		      	<img class="img-fluid img-checkout" style="" src="../../../assets/img/checkout.png" />
+		    </div>
+      	</div>
+      	<div class="row" style="margin-top: 1em">
+      		<div class="input-group">
+	      		<div class="col-3">
+			      <button class="btn btn-checkout-add d-flex" (click)="addUnit($event)">
+			      	<div class="label-checkout-add">
+			      		+
+			      	</div>
+			      </button>
+			    </div>
+			    <div class="col-3">
+			      <!-- <div class="btn btn-checkout-minus">-</div> -->
+			      <button class="btn btn-checkout-minus d-flex" (click)="decrementUnit($event)">
+			      	<div class="label-checkout-minus">
+			      		-
+			      	</div>
+			      </button>
+			    </div>
+			</div>
+      	</div>
+        <div class="row">
+        	<div class="col-12">
+	        	<div class="amount">Amount</div>
+	        </div>
+        </div>
+        <div class="row">
+        	<div class="col-12">
+	        	<div class="bio-basin-units">{{setCount}}({{setUnitCount}} units)</div>
+	        </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</ng-template>
+
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)" style="margin-top: 5em">Launch demo modal</button>
+
+<hr>
+
+<pre>{{closeResult}}</pre>

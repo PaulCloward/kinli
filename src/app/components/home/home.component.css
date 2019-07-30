@@ -1,0 +1,247 @@
+
+
+.bg{
+  /* The image used */
+  background-image: url("../../../assets/img/instrument_table.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Change Brightness */
+  -webkit-filter: brightness(70%); /* Safari 6.0 - 9.0 */
+  filter: brightness(70%);
+}
+
+.screen-one-row-position{
+  z-index: 100;
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+}
+
+.screen-two{
+  position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+  background-color: rgb(240, 240, 240);
+}
+
+.label-introducing{
+  color: white;
+  font-size: 3em;
+  font-family: "sf_pro_regular", sans-serif;
+  line-height: 1em;
+  
+}
+
+.label-bio-basin{
+  color: white;
+  font-size: 6em;
+  font-family: "sf_pro_semi_bold", sans-serif;
+  line-height: 1em;
+}
+
+.label-step-2{
+  color: black;
+  font-size: 3em;
+  font-family: "sf_pro_semi_bold", sans-serif;
+  line-height: 1em;
+}
+
+.bio-basin-description{
+  color: white;
+  font-size: 16px;
+  font-family: "sf_pro_semi_regular", sans-serif;
+  line-height: 1.2em;
+  margin-top: 2em;
+}
+
+.label-buy-now{
+  font-size: 1.6em;
+  color: #FA6D6F;
+  font-family: "sf_pro_semi_bold", sans-serif;
+  border-top: 1px solid #FA6D6F;
+  padding-top: .4em;
+  margin-top: 1em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.label-buy-now-blue{
+  font-size: 1.7em;
+  color: #3ABEFF;
+  font-family: "sf_pro_semi_bold", sans-serif;
+  border-top: 1px solid #3ABEFF;
+  padding-top: .3em;
+  margin-top: .5em;
+}
+
+.menu-circle-container, .menu-circle-container-2{
+  width: 100%;
+  text-align: center;
+}
+
+.menu-circle-container-2{
+  position: absolute;
+  bottom: 0%;
+
+}
+
+.circle-container{
+  height: 1em;
+  margin-bottom: 1.5em;
+}
+
+.unselected-circle,.selected-circle,.unselected-circle-black{
+  width: 13px;
+  height: 13px;
+  display: inline-flex;
+  border-radius: 100%;
+}
+
+.unselected-circle{
+  border: .5px solid white;
+}
+
+.unselected-circle-black{
+  border: .5px solid black;
+}
+
+.selected-circle{
+  background-color: #3ABEFF;
+}
+
+.big-circle-container{
+  display: flex;
+  justify-content: center;
+  margin-top: .7em;
+  margin-bottom: .4em;
+}
+
+.btn-menu-circle, .btn-menu-circle-black{
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-menu-circle-black{
+  border: 1px solid black !important;
+}
+
+.arrow_downward, .arrow_upward{
+  color: white;
+}
+
+.arrow_downward-black, .arrow_upward_black{
+  color: black;
+}
+
+.circle-menu-label, .circle-menu-label-black{
+  color: white;
+  font-size: 12px;
+  font-family: "sf_pro_bold", sans-serif;
+}
+
+.circle-menu-label-black{
+  color: black !important;
+}
+
+.divider-line, .divider-line-black{
+  height: 1px;
+  width: 100%;
+  border: 1px solid white;
+  margin-top: .75em;
+}
+
+.divider-line-black{
+  border-color: black !important;
+}
+
+.divider-line-half, .divider-line-half-black{
+  height: 1px;
+  width: 25%;
+  border: 1px solid white;
+  margin-bottom: .75em;
+}
+
+.divider-line-half-black{
+  border-color: black !important;
+}
+
+.slide-2-image{
+  width: 100%;
+}
+
+.slide-2-position-bottom-half{
+  position: absolute; 
+  bottom: 5%; 
+  left: 0%; 
+  right: 0%
+}
+
+.btn-see-more{
+  color: #3ABEFF;
+  background: none;
+  outline: none;
+  border: 2px solid #D3D3D3;
+  border-radius: 3px;
+  font-family: "sf_pro_bold", sans-serif;
+  font-size: 1.4em; 
+  text-align: center;
+  padding: .2em 1em;
+}
+
+.slide-2-description-position{
+  position: absolute; 
+  top: 30%; 
+  left: 10%; 
+  right: 10%;
+}
+
+.slide-2-description-container{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 5px 39px rgba(211, 211, 211, .45);
+  height: 10em;
+  padding: .3em;
+}
+
+.slide-2-description-title{
+  color: #3ABEFF;
+  font-family: "sf_pro_bold", sans-serif;
+  font-size: 1.4em;
+}
+
+.slide-2-description-paragraph{
+  color: black;
+  font-family: "sf_pro_regular", sans-serif;
+  font-size: .8em;
+  line-height: 1.1em;
+}
+
+.slide-4-position-bottom-half{
+  position: absolute; 
+  bottom: 0%; 
+  left: 0%; 
+  right: 0%
+}
+
+.slide-4-bottom-link{
+  color: #000;
+  font-size: 16px;
+  font-family: "sf_pro_semi_bold", sans-serif;
+  padding: 1em 0em;
+  cursor: pointer;
+  outline: none;
+}

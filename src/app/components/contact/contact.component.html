@@ -1,0 +1,79 @@
+<div class="container-fluid d-none d-md-flex">
+	<div class="row">
+		<div class="col-5 left-panel" [@fadeInOut]>
+			 <img src="../../../assets/img/stock_photo_books.jpg" class="img-fluid"  />
+		</div>
+		<div class="col-7 right-panel" [@fadeInOut]>
+			<form class="custom-form" [formGroup]="contactForm">
+				<div class="we-would-love-to-hear-from-you">Hey, we'd love to hear from you</div>
+				<div class="row">
+					<input class="input-field-contact" formControlName="name" placeholder="Your Name" />
+				</div>
+			
+				<div *ngIf="name.invalid && name.touched" class="row error-message" style="padding-top: .7em;">
+	            * Your name is expected
+	        	</div>
+					
+				<div class="row">
+					<input class="input-field-contact" formControlName="email" placeholder="Your email" />
+				</div>
+
+				<div *ngIf="email.invalid && email.touched" class="row error-message" style="padding-top: .7em;">
+	            * Need an email
+	        	</div>
+
+				<div class="row">
+					<textarea id="input-message" formControlName="message" class="input-text-area-message" rows="4" placeholder="message..." ></textarea>
+				</div>
+
+				<div *ngIf="message.invalid && message.touched" class="row error-message" style="padding-top: .7em;">
+	            * A message is expected
+	        	</div>
+
+				<div class="row" *ngIf="contactForm.invalid">
+					<div class="btn-submit-rectangle" (click)="submit()">
+						<label class="label-submit align-self-center">Submit</label>
+					</div>
+				</div>
+				<div class="row" *ngIf="contactForm.valid">
+					<div class="btn-submit-rectangle-clicked" (click)="submit()">
+						<label class="label-submit-clicked align-self-center">Submit</label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid d-block d-md-none" [@fadeInOut]>
+	<div class="row">
+		<div class="col-12 left-panel">
+			 <img src="../../../assets/img/stock_photo_books_crop.jpg" class="img-fluid" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12 right-panel" style="padding-top: 1em !important">
+			<div class="we-would-love-to-hear-from-you">Hey, we'd love to hear from you</div>
+			<div class="row">
+				<input class="input-field-contact" placeholder="Your Name" />
+			</div>
+			<div class="row">
+				<input class="input-field-contact" placeholder="Your Email" />
+			</div>
+			<div class="row">
+				<textarea id="input-message" class="input-text-area-message" rows="4" placeholder="message..." ></textarea>
+			</div>
+			<div class="row" *ngIf="contactSubmitted">
+				<div class="btn-submit-rectangle" (click)="submit()">
+					<label class="label-submit align-self-center">Submit</label>
+				</div>
+			</div>
+			<div class="row" *ngIf="!contactSubmitted">
+				<div class="btn-submit-rectangle-clicked" (click)="submit()">
+					<label class="label-submit-clicked align-self-center">Submit</label>
+				</div>
+			</div>
+			<br><br><br>
+		</div>
+	</div>
+</div>

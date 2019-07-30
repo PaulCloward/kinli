@@ -1,0 +1,34 @@
+nav{
+	background-color: rgba(255,255,255,.7);
+	height: 65px;
+
+}
+
+.nav-link{
+	color: #000;
+	font-size: 16px;
+	font-family: "sf_pro_semi_bold", sans-serif;
+}
+
+.nav-item{
+	margin-left: 1.5em;
+	position: relative;
+}
+
+.nav-tab-selected{
+	color: black;
+	font-family: "sf_pro_bold", sans-serif;
+}
+
+.border-line{
+	border-bottom: 3px solid blue;
+	margin-bottom: 1em;
+}
+
+.buy-now{
+	color: #FA6D6F !important;
+	font-size: 16px;
+	font-family: "sf_pro_semi_bold", sans-serif;
+	font-weight: bold !important;
+	cursor: pointer;
+}

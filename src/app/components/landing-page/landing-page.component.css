@@ -1,0 +1,285 @@
+.container-fluid{
+  overflow: hidden;
+}
+
+.top-image{
+  opacity: 1;
+  z-index: 0;
+}
+
+.top-image-container {
+  position: relative;
+  display: inline-block;
+  background-color: #000;
+  padding: 0em;
+}
+
+.buy-now-button-position{
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+.buy-now-button{
+  height: 67px;
+  width: 202px;
+  border-radius: 5px;
+  background-color: #FFF;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+  border: none;
+}
+
+.buy-now-text{
+  color: #FA6D6F;
+  font-family: "sf_pro_bold";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+}
+
+.middle-section{
+  margin-top: 7em;
+}
+
+.profession-row{
+	padding: 0em 2em;
+}
+
+.profession-column{
+	text-align: center;
+  padding: 0em;
+}
+
+.profession-image-base {
+    border-radius: 50%;
+    margin: 3em auto;
+}
+
+.profession-image {
+    width: 75px;
+    height: 75px;
+    background: lightgray;
+}
+
+.profession-title{
+	color: #3ABEFF;
+  font-weight: 700;
+  line-height: 36px;
+  font-family: "sf_pro_bold", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.profession-description{
+	margin-top: 1.5em;
+	font-family: "sf_pro_bold", sans-serif;
+	color: #000;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+
+.footer{
+	height: 153px;
+	background-color: #C8C8C8;	
+	width: 100%;
+  padding: 1em 2em;
+  font-family: "sf_pro_semi_bold", sans-serif;
+  color: #000; 
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  margin-top: 8em;
+}
+
+.small-circle{
+  width: 6em;
+  margin: 3em auto;
+}
+
+.what-is-bio-basin-position{
+  position: absolute; 
+  left: 0%; 
+  top: 20%;
+}
+
+.what-is-bio-basin{
+  color: #FF5F58;
+  font-family: "sf_pro_bold", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.the-bio-basin-is-a-light-weigh {
+  color: #000;
+  font-family: "sf_pro_bold";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 1.5em;
+}
+
+.hear-it-from-clinicians{
+  color: #3ABEFF;
+  font-family: "sf_pro_bold";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin-top: 2em;
+}
+
+.testimony{
+  margin-top: 1em;
+  color: #000;
+  font-family: "sf_pro_regular";
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+}
+
+.bg-image{
+  width: 60%;
+  background: url('../../../assets/img/instrument_table.jpg') no-repeat left; 
+  background-size: contain;
+  padding-top: 43%;
+  opacity: .4;
+  -webkit-filter: blur(5px); 
+  filter: blur(5px);
+}
+
+.blurry-image{
+  margin-top: 5em;
+  position: relative;
+  background-color: rgba(255,255,255,0.4);
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  .blurry-image{
+    margin-top: 3em;
+  }
+  
+  .buy-now-button{
+    height: 44.66px;
+    width: 134.66px;
+  }
+
+  .buy-now-text{
+    font-size: 23.33px;
+    line-height: 28px;
+  }
+
+  .middle-section{
+    margin-top: 3em;
+  }
+
+  .profession-title{
+    font-size: 25px;
+  }
+
+  .profession-description{
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: .5em;
+  }
+
+  .what-is-bio-basin{
+    font-size: 43.33px;
+    line-height: 52px;
+  }
+
+  .the-bio-basin-is-a-light-weigh {
+    font-size: 16.66px;
+    line-height: 20px;
+  }
+
+  .hear-it-from-clinicians{
+    font-size: 36px;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 2em;
+  }
+
+  .testimony{
+    margin-top: 1em;
+    color: #000;
+    font-family: "sf_pro_regular";
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+  }
+
+  
+}
+
+@media only screen and (max-width: 768px){
+  
+  .blurry-image{
+    margin-top: 3em;
+  }
+
+  .what-is-bio-basin-position{
+    left: 0%; 
+    top: 10%;
+  }
+
+  .what-is-bio-basin{
+    font-size: 43.33px;
+    line-height: 52px;
+  }
+
+  .the-bio-basin-is-a-light-weigh {
+    font-size: 16.66px;
+    line-height: 20px;
+  }
+
+  .hear-it-from-clinicians{
+    font-size: 26.66px;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 2em;
+  }
+
+  .testimony{
+    margin-top: 1em;
+    color: #000;
+    font-family: "sf_pro_regular";
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 576px){
+
+  .middle-section{
+    margin-top: 1em;
+  }
+
+  .blurry-image{
+    margin-top: 1em;
+  }
+
+  .what-is-bio-basin-position{
+    left: 0%; 
+    top: 10%;
+  }
+
+  .what-is-bio-basin{
+    font-size: 28.88px;
+    line-height: 34.66px;
+  }
+
+  .the-bio-basin-is-a-light-weigh {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+}

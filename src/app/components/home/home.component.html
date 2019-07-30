@@ -1,0 +1,264 @@
+<div class="bg" *ngIf="currentStep == STEP_ONE" [@fadeInOut]></div>
+<div class="container-fluid" *ngIf="currentStep == STEP_ONE" [@fadeInOut]>
+	<div class="row">
+		<div class="screen-one-row-position">
+			<div class="row">
+				<div class="col-9 offset-1">
+					<div class="row">
+						<div class="col" style="padding-top: 2em;">
+							<div class="divider-line-half"></div>
+							<div class="label-introducing">Introducing</div>
+							<div class="label-bio-basin">Bio Basin</div>
+						</div>
+						<div class="col">
+							<div class="row">
+								<div class="col-7 offset-5">
+									<div class="bio-basin-description">
+										This is a description of an amazing product
+										(the Bio Basin). Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis massa pulvinar
+									</div>
+								</div>
+								<div class="col-4 offset-8">
+									<div class="label-buy-now" (click)="onClickBuyNow()">
+										BUY NOW
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="divider-line"></div>
+				</div>
+				<div class="col-2">
+					<div class="menu-circle-container">
+						<div class="circle-container">
+							<div class="selected-circle"></div>
+						</div>
+						<div class="circle-container">
+							<div class="unselected-circle"></div>
+						</div>
+						<div class="circle-container">
+							<div class="unselected-circle"></div>
+						</div>
+						<div class="circle-container">
+							<div class="unselected-circle"></div>
+						</div>
+						<div class="big-circle-container">
+							<button class="btn-menu-circle" (click)="currentStep = STEP_TWO">
+								<i class="material-icons arrow_downward" >
+									arrow_downward
+								</i>
+							</button>
+						</div>
+						<div class="circle-menu-label">Clinicians</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!------------------------------ STEP TWO ------------------------------------>
+<div class="container-fluid"  *ngIf="currentStep == STEP_TWO" [@fadeInOut]>
+	<div class="row">
+		<div class="screen-two">
+
+			<div class="row">
+				<div class="col-4 offset-4">
+					<!-- <div style="height: 15em; width: 100%; background-color: red">
+					</div> -->
+					<img class="slide-2-image" src="../../../assets/img/instrument_table.jpg" alt="instrument_table">
+				</div>
+			</div>
+
+			<div class="row slide-2-description-position">
+				<div class="col">
+					<div class="slide-2-description-container">
+						<div class="slide-2-description-title">
+							ER Tech
+						</div>
+						<div class="slide-2-description-paragraph">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="slide-2-description-container">
+						<div class="slide-2-description-title">
+							Cardiologist
+						</div>
+						<div class="slide-2-description-paragraph">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="slide-2-description-container">
+						<div class="slide-2-description-title">
+							Medicalist
+						</div>
+						<div class="slide-2-description-paragraph">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="slide-2-description-container">
+						<div class="slide-2-description-title">
+							Medicalist
+						</div>
+						<div class="slide-2-description-paragraph">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row slide-2-position-bottom-half">
+				<div class="col-9 offset-1">	
+					
+					<div class="row" style="margin-bottom: 3em;">
+						<div class="col-6 offset-6">
+							<button class="btn btn-see-more">See More</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-10">
+							<div class="divider-line-half-black"></div>
+							<div class="label-step-2">Medical Clinicians</div>
+						</div>
+						<div class="col-2">
+							<div class="label-buy-now-blue">
+								BUY NOW
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="divider-line-black"></div>	
+						</div>					
+					</div>
+					
+				</div>
+				<div class="col-2">
+					<div class="menu-circle-container-2">
+						<div class="circle-menu-label-black">Home</div>
+						<div class="big-circle-container">
+							<button class="btn-menu-circle-black" (click)="currentStep = STEP_ONE">
+								<i class="material-icons arrow_upward_black">
+									arrow_upward
+								</i>
+							</button>
+						</div>
+						<div class="circle-container">
+							<div class="unselected-circle-black"></div>
+						</div>
+						<div class="circle-container">
+							<div class="selected-circle"></div>
+						</div>
+						<div class="circle-container">
+							<div class="unselected-circle-black"></div>
+						</div>
+						<div class="circle-container">
+							<div class="unselected-circle-black"></div>
+						</div>
+						<div class="big-circle-container">
+							<button class="btn-menu-circle-black" (click)="currentStep = STEP_FOUR">
+								<i class="material-icons arrow_downward_black">
+									arrow_downward
+								</i>
+							</button>
+						</div>
+						<div class="circle-menu-label-black">Order Yours</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!------------------------------ STEP FOUR ------------------------------------>
+<div class="container-fluid"  *ngIf="currentStep == STEP_FOUR" [@fadeInOut]>
+	<div class="row">
+		<div class="screen-two">
+
+			<div class="row">
+				<div class="col-4 offset-4">
+					<!-- <div style="height: 15em; width: 100%; background-color: red">
+					</div> -->
+					<img class="slide-2-image" src="../../../assets/img/instrument_table.jpg" alt="instrument_table">
+				</div>
+			</div>
+
+			<div class="row slide-4-position-bottom-half">
+				<div class="col-9 offset-1">	
+					
+					<div class="row" style="margin-bottom: 3em;">
+						<div class="col-6 offset-6">
+							<button class="btn btn-see-more">See More</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-10">
+							<div class="divider-line-half-black"></div>
+							<div class="label-step-2">Order yours today.</div>
+						</div>
+						<div class="col-2">
+							<div class="label-buy-now-blue">
+								BUY NOW
+							</div>
+						</div>					
+					</div>
+					
+				</div>
+				<div class="col-2">
+					<div class="menu-circle-container-2">
+						<div class="circle-menu-label-black">Home</div>
+						<div class="big-circle-container">
+							<button class="btn-menu-circle-black" (click)="currentStep = STEP_TWO">
+								<i class="material-icons arrow_upward_black">
+									arrow_upward
+								</i>
+							</button>
+						</div>
+						<div class="circle-container">
+							<div class="unselected-circle-black"></div>
+						</div>
+						<div class="circle-container">
+							<div class="selected-circle"></div>
+						</div>
+						<div class="circle-container">
+							<div class="unselected-circle-black"></div>
+						</div>
+						<div class="circle-container">
+							<div class="unselected-circle-black"></div>
+						</div>
+						<div class="big-circle-container">
+							<button class="btn-menu-circle-black" (click)="currentStep = STEP_ONE">
+								<i class="material-icons arrow_downward_black">
+									arrow_downward
+								</i>
+							</button>
+						</div>
+						<div class="circle-menu-label-black">Order Yours</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="divider-line-black"></div>	
+				</div>
+				<div class="col-11 offset-1">
+					<div class="row">
+						<div class="col-1">
+							<div class="slide-4-bottom-link" (click)="onClickContact()">
+								CONTACT
+							</div>
+						</div>
+						<div class="col-1">
+							<div class="slide-4-bottom-link">PURCHASE</div>
+						</div>
+						<div class="col-1">
+							<div class="slide-4-bottom-link">TESTIMONIALS</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

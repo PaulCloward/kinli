@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: sf_pro_bold;
+  src: url(/assets/fonts/sf_pro/SF-Pro-Text-Bold.otf) format('truetype');
+}
+
+@font-face {
+  font-family: sf_pro_semi_bold;
+  src: url(/assets/fonts/sf_pro/SF-Pro-Text-Semibold.otf) format('truetype');
+}
+
+@font-face {
+  font-family: sf_pro_regular;
+  src: url(/assets/fonts/sf_pro/SF-Pro-Text-Regular.otf) format('truetype');
+}
+
+@font-face {
+  font-family: sf_pro_medium;
+  src: url(/assets/fonts/sf_pro/SF-Pro-Text-Medium.otf) format('truetype');
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.error-column{
+	padding: 0em;
+}
+
+.error-message{
+	color: #D8000C;
+}
+
+.btn-dropdown{
+    width: 100%;
+    text-align: left;
+    padding: .5em 0em;
+    /*
+    height: 53px;
+    border-radius: 3px;
+    border: 2px solid #000;
+    color: #000;
+    font-family: "sf_pro_bold";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;*/
+    background-color: white;
+}
+
+.dropdown-toggle::after {
+    text-align: right;
+    float: right;
+    /*Chrome IE fix*/
+    margin-top: 10px;
+}
+
+.dropdown-container{
+    width: 100%;
+    position: relative;
+}
+
+.dropdown-menu{
+	position: absolute;
+  	top: 100%; /* Bottom of button */
+  	right: 0;
+  	height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}

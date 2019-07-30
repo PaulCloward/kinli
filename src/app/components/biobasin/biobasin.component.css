@@ -1,0 +1,675 @@
+.transition-panel {
+	padding: 0em;
+}
+
+.right-panel {
+	padding: 1em;
+}
+
+.step-container{
+  padding: 6em 4em;
+}
+
+.label-biobasin, .label-biobasin-small{
+	color: #060606;
+	font-size: 90px;
+	font-family: "sf_pro_medium", sans-serif;
+	text-align: left;
+}
+
+.label-biobasin{
+  font-size: 90px;
+  margin-top: 1em;
+  line-height: 107px;
+}
+
+.label-biobasin-small{
+  font-size: 60px;
+  line-height: 77px;
+}
+
+.label-amount, .label-amount-small{
+	color: #000;
+	font-family: "sf_pro_bold", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.44px;
+  line-height: 48px;
+	text-align: left;
+}
+
+.label-amount{
+  font-size: 40px;
+}
+
+.label-amount-small{
+  font-size: 26.7px;
+}
+
+.label-amount-per-unit, .label-amount-per-unit-small{
+	color:#000;
+	font-family: "sf_pro_bold", sans-serif;
+	text-align: left;
+}
+
+.label-amount-per-unit{
+  font-size: 18px;
+}
+
+.label-amount-per-unit-small{
+  font-size: 12px;
+}
+
+.label-description, .label-description-small{
+	color:#000;
+	font-family: "sf_pro_bold", sans-serif;
+	text-align: left;
+}
+
+.label-description{
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: .75em;
+}
+
+.label-description-small{
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: .75em;
+}
+
+.the-bio-basin-is-a-light-weigh, .the-bio-basin-is-a-light-weigh-small {
+  height: 119px;
+  width: 377px;
+  color: #7B8898;
+  font-family: "sf_pro_regular", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: .5em;
+}
+
+.btn-add-to-cart{
+	  text-align: center;
+	  height: 53px;
+  	width: 321.92px;
+	  color: white;
+	  border-color: #3ABEFF;
+	  border-radius: 3px;
+  	background-color: #3ABEFF;
+  	font-family: "sf_pro_bold", sans-serif;
+  	font-size: 16px;
+  	font-weight: bold;
+  	cursor: pointer;
+  	margin-top: 1em;
+  	outline: none;
+  	border: none;
+}
+
+.left-panel-bottom{
+ 	padding: 2.5em .5em 2.5em 2.5em;
+}
+
+
+
+.label-professionals{
+	width: 100%;
+	color: 000;
+	font-family: "sf_pro_bold", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.57px;
+	line-height: 19px;
+}
+
+.label-box {
+	border: 1.5px solid #060606;
+	font-family: "sf_pro_medium", sans-serif;
+	border-radius: 3px;
+	padding: .7em 1.5em;
+	color: #060606;
+	font-weight: bold;
+	font-size: 13px;
+	margin-right: 1em;
+	margin-top: 1em;
+	cursor: pointer;
+}
+
+.label-box-more{
+	font-family: "sf_pro_medium", sans-serif;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 16px;
+	color: white;
+	background-color: #000;
+	padding: 1em 3.8em;
+}
+
+
+
+.footer{
+	height: 10em;
+	background-color: #C8C8C8;	
+	width: 100%;
+    padding: 1em 2em;
+    font-family: "sf_pro_semi_bold", sans-serif;
+    color: #000; 
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.carousel-control-prev,.carousel-control-next{
+	height: 35px;
+  	width: 50px;
+	margin-top: auto;
+	margin-bottom: 1em;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-ico {
+  height: 35px;
+  width: 50px;
+  border-radius: 3px;
+  background-color: #FFF;
+  background-size: 100%, 100%;
+  background-image: none;
+ /* margin-top: auto;
+  margin-bottom: 1em;*/
+}
+
+.arrow{
+  color: #3ABEFF;
+  font-size: 2.2em;
+}
+
+.icon-flipped {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+
+.slide-number-display{
+	position: absolute;
+	left: 76%;
+	bottom: 2.7%;
+	color: #060606;
+	font-family: "sf_pro_semi_bold";
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: -0.22px;
+	line-height: 24px;
+}
+
+.slide-number-display-small{
+  bottom: 6% !important;
+}
+
+.carousel-control-prev{
+	left: 60%;
+}
+
+.carousel-control-next{
+	right: 5%;
+}
+
+.carousel-control-next-ico:after
+{
+  font-size: 30px;
+  font-weight: bold;
+  color: #3ABEFF;
+  line-height: 1em;
+}
+
+.carousel-control-prev-ico:after {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3ABEFF;
+  line-height: 1em;
+}
+
+.img-relax{
+	filter: brightness(60%);
+	margin-left: auto;
+}
+
+/* Container holding the image and the text */
+.biobasin-quote-container {
+  position: relative;
+  text-align: left;
+  color: white;
+  padding: 0em;
+}
+
+.biobasin-paragraph{
+	font-family: "sf_pro_semi_bold", sans-serif;
+	color: white;
+	font-size: 26px;
+	line-height: 36px;
+	font-weight: 600;
+	padding: .5em;
+}
+
+.right-panel-bottom{
+	margin-top: 2em;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.myblock {
+    background-color: green;
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 5rem;
+}
+
+
+
+/*-----------Add To Cart Pop Up--------------------------------*/
+.close:focus{
+	outline: none;
+}
+
+.btn-checkout{
+	height: 53px;
+	width: 100%;
+	border-radius: 3px;
+  	background-color: #3ABEFF;
+  	color: #FFF;
+    font-family: "sf_pro_bold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.btn-checkout-add, .btn-checkout-minus{
+	height: 40.19px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 2em;
+}
+
+.btn-checkout-add{
+	background-color: #3ABEFF;
+}
+
+.label-checkout-add{
+	color: white;
+	line-height: .5em;
+	margin-bottom: .2em;
+	width: 100%;
+	height: 100%;
+}
+
+.btn-checkout-minus{
+	border: 2px solid #3ABEFF;
+	background-color: white;
+}
+
+.label-checkout-minus{
+	color: #3ABEFF;
+	line-height: .5em;
+	margin-bottom: .2em;
+	width: 100%;
+	height: 100%;
+}
+
+.amount{
+	margin-top: .5em;
+	color: #000;
+  	font-family: "sf_pro_regular", sans-serif;
+  	font-size: 18px;
+  	letter-spacing: 0.64px;
+  	line-height: 21px;
+}
+
+.bio-basin-units{
+	 color: #000;
+     font-family: "sf_pro_regular", sans-serif;
+     font-size: 50px;
+     letter-spacing: 1.79px;
+     line-height: 60px;
+}
+
+.img-checkout{
+	height: 50px;
+}
+/*-------------------------------------------------------------*/
+
+/*-----------------Step 1 of Checkout Process------------------*/
+
+.img-back-step-1{
+  	width: 60%;
+  	margin-bottom: .4em;
+}
+
+.btn-back{
+	background-color: white;
+	box-sizing: border-box;
+	height: 35px;
+	width: 91px;
+	border-radius: 4px;
+	border: 1.25px solid #000;
+	cursor: pointer;
+}
+
+.label-back{
+	color: #000;
+  font-family: "sf_pro_regular";
+  font-size: 15px;
+  letter-spacing: 0.54px;
+  line-height: 1em;
+  margin-right: 1em;
+}
+
+.shopping-cart-container{
+	margin-top: 2em;
+	background-color: #fff;
+	padding: 1em;
+	border-radius: 7px;
+  background-color: #FFF;
+  box-shadow: 0 5px 60px 0 rgba(0,0,0,0.15);
+}
+
+.shopping-cart-header{
+	  color: #000;
+    font-family: "sf_pro_regular";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.64px;
+    line-height: 21px;
+}
+
+.top-border-in-stock{
+	 box-sizing: border-box;
+  	height: 0;
+  	width: 33.5px;
+	border: 2px solid #000;
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+}
+
+.label-in-stock{
+  color: #000;
+  font-family: "sf_pro_regular", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.64px;
+  line-height: 21px;
+}
+
+.label-shopping-cart-regular{
+	color: #000;
+  	font-family: "sf_pro_regular";
+  	font-size: 18px;
+  	letter-spacing: 0.64px;
+  	line-height: 21px;
+}
+
+.set-of-container{
+	  width: 100%;
+	  text-align: center;
+	  box-sizing: border-box;
+ 	  border-radius: 3px;
+  	border: 2px solid #3ABEFF;
+  	padding: 1em;
+}
+
+.set-of-text{
+	  color: #000;
+    font-family: "sf_pro_regular",sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.07px;
+    line-height: 36px;
+}
+
+.set-of-sub-text{
+	  color: #000;
+  	font-family: "sf_pro_regular",sans-serif;
+  	font-size: 15px;
+  	letter-spacing: 0.54px;
+  	line-height: 18px;
+}
+
+.img-shopping-cart{
+	  border-radius: 3px;
+  	background-color: #F2F2F2;
+}
+
+.checkout-button{
+	  color: #FFF;
+    font-family: "sf_pro_regular";
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.54px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 7px;
+  	background-color: #3ABEFF;
+  	width: 100%;
+  	height: 40px;
+  	margin-top: 1em;
+}
+
+.progress-circle-filled, .progress-circle-unfilled{
+	height: 14px;
+  width: 14px;
+	border-radius: 100%;
+	margin-left: 2em;
+}
+
+.progress-circle-filled{
+	background-color: #3ABEFF;
+}
+
+.progress-circle-unfilled{
+	background-color: #E0E0E0;
+}
+
+/*-------------------------------------------------------------*/
+
+/*-----------------Step 2 of Checkout Process------------------*/
+
+
+.shipping-address-input::placeholder{
+	  color: #828282;
+  	font-family: "sf_pro_regular";
+  	font-size: 15px;
+  	font-weight: 700;
+  	line-height: 18px;
+}
+
+.shipping-address-input{
+	  margin-bottom: .8em;
+	  height: 53px;
+	 border-radius: 3px;
+  	background-color: #F2F2F2;
+  	color: #000;
+  	font-family: "sf_pro_regular";
+  	font-size: 15px;
+  	font-weight: 700;
+  	line-height: 18px;
+  	outline: none;
+  	border: none;
+  	padding-left: 1em;
+  	width: 100%;
+}
+
+.btn-use-this-address-billing {
+	  box-sizing: border-box;
+  	height: 53px;
+  	width: 100%;
+  	border-radius: 3px;
+  	border: 2px solid #000;
+	  color: #000;
+  	font-family: "sf_pro_bold";
+  	font-size: 15px;
+  	font-weight: 700;
+  	line-height: 18px;
+  	background-color: white;
+}
+
+.btn-use-this-address-billing-ready {
+	  box-sizing: border-box;
+  	height: 53px;
+  	width: 100%;
+  	border-radius: 3px;
+	  color: #FFF;
+  	font-family: "sf_pro_bold";
+  	font-size: 15px;
+  	font-weight: 700;
+  	line-height: 18px;
+  	background-color: #3ABEFF;
+}
+
+.btn-not-ready{
+  box-sizing: border-box;
+  height: 53px;
+  width: 100%;
+  border-radius: 3px;
+  border: 2px solid #BDBDBD;
+  color: #BDBDBD;
+  font-family: "sf_pro_bold";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  background-color: white;
+  text-align: left;
+  cursor: auto !important;
+}
+
+.btn-shipping-next-default,.btn-shipping-next-ready{
+	  box-sizing: border-box;
+  	height: 53px;
+  	width: 100%;
+  	 border-radius: 3px;
+  	border: 2px solid #000;
+	  color: #000;
+  	font-family: "sf_pro_bold";
+  	font-size: 15px;
+  	font-weight: 700;
+  	line-height: 18px;
+  	background-color: white;
+  	text-align: left;
+}
+
+.btn-shipping-next-default{
+	border: 2px solid #E0E0E0;
+	color: #E0E0E0;
+}
+
+.btn-shipping-next-ready{
+	border: 2px solid #000;
+	color: #000;
+}
+
+
+/*.btn-pay-style{
+	width: 100%;
+	color: #E0E0E0;
+  	font-family: "sf_pro_regular";
+  	font-size: 15px;
+  	font-weight: 600;
+  	line-height: 18px;
+  	text-align: center;
+  	box-sizing: border-box;
+ 	height: 53px;
+  	border-radius: 3px;
+  	border: 2px solid #E0E0E0;
+  	background-color: white;
+}*/
+
+.btn-pay-style{
+	border-radius: 3px;
+  	background-color: #3ABEFF;
+  	color: #FFF;
+  	font-family: "sf_pro_regular";
+  	font-size: 15px;
+  	font-weight: 700;
+  	line-height: 18px;
+  	text-align: center;
+  	border: none;
+  	height: 53px;
+  	width: 126px;
+}
+
+.credit-card-info {
+  box-sizing: border-box;
+  height: 53px;
+  width: 255px;
+  border-radius: 3px;
+  border: 2px solid #828282;
+  color: #828282;
+  font-family: "sf_pro_semi_bold";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  background-color: white;
+  text-align: center;
+}
+
+
+.cvc-number{
+	width: 137px !important;
+	margin-right: 2em;
+}
+
+.expiration{
+	width: 83px !important;
+	margin-right: .5em;
+}
+
+.btn-credit-card-next, .btn-credit-card-next-ready{
+	box-sizing: border-box;
+	height: 53px;
+	width: 255px;
+	border-radius: 3px;
+	border: 2px solid #E0E0E0;
+  color: #BDBDBD;
+	font-family: "sf_pro_regular";
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 18px;
+	background-color: white;
+}
+
+.btn-credit-card-next-ready{
+  color: #000 !important;
+  border: 2px solid #000 !important;
+}
+
+.label-back{
+  cursor: pointer;
+}
+
+/*-------------------------------------------------------------*/
+
+/*-----------------Step 3 of Checkout Process------------------*/
+
+.cart-summary-container{
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #FFF;
+  border: 2px solid #000;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 15em;
+}
+
+/*---------------- Complete Stage ------------------*/
+
+.we-have-notified{
+  color: #000;
+  font-family: "sf_pro_regular";
+  font-size: 20px;
+  letter-spacing: 0.71px;
+  line-height: 24px;
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
